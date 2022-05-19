@@ -2,7 +2,7 @@ name: CI/CD to GKE
 
 on:
   push:
-    branches: [ test ]
+    branches: [ master ]
 
 jobs:
   build:
